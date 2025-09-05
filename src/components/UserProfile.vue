@@ -36,7 +36,7 @@
 
         <div class="flex items-center gap-6 text-sm text-gray-500">
           <div class="flex items-center gap-1">
-            <img src="/repo.svg" alt="" class="w-5 h-5 inline" />
+            <img src="/repo.svg" alt="" class="w-4 h-4 inline" />
             <span>
               <strong>{{ thousands(user.public_repos) }}</strong>
               repositories
@@ -44,7 +44,7 @@
           </div>
 
           <div class="flex items-center gap-1">
-            <img src="/follow.svg" alt="" class="w-5 h-5 inline" />
+            <img src="/follow.svg" alt="" class="w-4 h-4 inline" />
             <span>
               <strong>{{ thousands(user.followers) }}</strong>
               followers
